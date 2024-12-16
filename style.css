@@ -1,0 +1,121 @@
+/* Police moderne et lisible */
+body {
+    font-family: 'Roboto', sans-serif; /* Police moderne */
+    background-color: #f4f4f4; /* Fond clair pour une meilleure lisibilité */
+    color: #333; /* Texte sombre pour un bon contraste */
+    line-height: 1.6; /* Améliorer la lisibilité */
+}
+
+/* Titres plus grands et gras */
+h1, h2, h3 {
+    font-family: 'Lora', serif; /* Police élégante pour les titres */
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Améliorer les liens */
+a {
+    color: #007BFF; /* Couleur des liens */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3; /* Changement de couleur au survol */
+    text-decoration: underline; /* Ajouter un soulignement au survol */
+}
+
+/* Style de boutons modernes */
+button {
+    background-color: #007BFF; /* Bleu vif */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transition douce */
+}
+
+button:hover {
+    background-color: #0056b3; /* Couleur au survol */
+    transform: scale(1.05); /* Léger agrandissement du bouton */
+}
+
+/* Style des boutons secondaires */
+button.secondary {
+    background-color: #6c757d;
+}
+
+button.secondary:hover {
+    background-color: #5a6268;
+}
+/* Utilisation de CSS Grid pour organiser le contenu */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Colonnes flexibles */
+    gap: 20px; /* Espacement entre les éléments */
+    padding: 20px;
+}
+
+.container > div {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+/* Exemple de mise en page d'une carte */
+.card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Légère élévation de la carte au survol */
+}
+/* Bright and Bold Colors */
+body {
+    background-color: #FFEB3B; /* Bright yellow background */
+    color: #212121; /* Dark text */
+}
+
+h1, h2, h3 {
+    color: #D32F2F; /* Red headers */
+}
+
+button {
+    background-color: #0288D1; /* Blue button */
+    color: white;
+}
+
+button:hover {
+    background-color: #0277BD; /* Darker blue on hover */
+}
+
+footer {
+    background-color: #D32F2F; /* Red footer */
+    color: white;
+}
+:root {
+    --primary-color: #0288D1; /* Blue */
+    --secondary-color: #FF5722; /* Red */
+    --background-color: #F5F5F5; /* Light gray */
+    --text-color: #212121; /* Dark text */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+h1, h2, h3 {
+    color: var(--primary-color);
+}
+
+button {
+    background-color: var(--secondary-color);
+    color: white;
+}
